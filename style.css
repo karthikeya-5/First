@@ -1,0 +1,423 @@
+body {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    background-color: white;
+}
+
+html {
+    background-color: gainsboro;
+}
+
+.temp {
+    text-align: center;
+    height: 100px;
+    padding: 34px 0px 0px 0px;
+    font-size: 3.5em;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.search {
+    float: right;
+    margin: 5px;
+}
+
+.nave {
+    background-color: darkolivegreen;
+}
+
+.nave>ul {
+    list-style: none;
+    margin: 0px;
+}
+
+.nave>ul>li {
+    display: inline-block;
+}
+
+h6 {
+    clear: both;
+}
+
+.nave>ul>li>a {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.nave>ul>li>a:hover {
+    background-color: gainsboro;
+    color: rgb(26, 26, 26);
+}
+
+.pp {
+    position: absolute;
+}
+
+.pop {
+    width: 135px;
+    display: none;
+    background-color: black;
+    margin: 0px;
+    padding: 1px;
+    position: absolute;
+    list-style-type: none;
+}
+
+.pop>li>a {
+    color: white;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.pop>li>a:hover {
+    color: black;
+    background-color: gainsboro;
+}
+
+.nave>ul>li:hover .pop {
+    display: block;
+}
+
+.ph {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://lorempixel.com/1200/400/business);
+    animation-name: slider;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(https://lorempixel.com/1200/400/business);
+    }
+    25% {
+        background-image: url(https://lorempixel.com/1200/400/food);
+    }
+    50% {
+        background-image: url(https://lorempixel.com/1200/400/transport);
+    }
+    75% {
+        background-image: url(https://lorempixel.com/1200/400/technics);
+    }
+}
+
+.ph>img {
+    width: 100%;
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.rightc>ul>li>a {
+    color: black;
+    /* text-decoration: none; */
+}
+
+.leftcn {
+    background-color: white;
+    width: 80%;
+    height: 400px;
+}
+
+.leftc {
+    background-color: white;
+    width: 80%;
+    height: 500px;
+}
+
+.cnt {
+    height: 500px;
+    background-color: darkolivegreen;
+}
+
+.cnter {
+    height: 400px;
+    background-color: darkolivegreen;
+}
+
+.rightcn {
+    width: 20%;
+    height: 400px;
+}
+
+.rightc {
+    width: 20%;
+    height: 500px;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+p {
+    word-spacing: 3px;
+    padding: 6px;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-align: justify;
+}
+
+.j {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jk {
+    float: left;
+}
+
+.rightcn>ul>li>a {
+    color: black;
+}
+
+.ft {
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
+.ft>.ftlt>ul {
+    list-style-type: none;
+}
+
+.ftlt {
+    width: 30%;
+}
+
+.ft>.ftlt>ul>li>a {
+    text-decoration: none;
+}
+
+.yp {
+    margin: 0px;
+}
+
+.p {
+    width: 80%;
+}
+
+.foot {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    background-color: black;
+}
+
+.foot>.yu>div>a:hover {
+    text-decoration: underline;
+}
+
+.foot>.yu>div>a {
+    display: block;
+    padding: 2px;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white !important;
+}
+
+.yu {
+    float: left;
+    padding: 65px 0px 0px 25px;
+    width: 30%;
+    text-align: justify;
+}
+
+.lo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.insta {
+    position: absolute;
+    right: 19px;
+    bottom: 50px;
+}
+
+.facebo {
+    position: absolute;
+    right: 19px;
+    bottom: 100px;
+}
+
+.whatsapp {
+    position: absolute;
+    right: 19px;
+    bottom: 150px;
+}
+
+.extra {
+    padding: 3px;
+}
+
+.extra {
+    color: white;
+}
+
+.extra>a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.extra>a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    color: rgb(150, 150, 150);
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+label {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: black;
+}
+
+.bod {
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.boxl {
+    font-size: 1.4em;
+    color: black;
+    /* font-weight: bold; */
+    /* border: 2px solid black; */
+    width: 50px;
+}
+
+.bi {
+    padding: 2.5px;
+}
+
+.etr {
+    margin: 0px 0px 0px 2em;
+}
+
+.study {
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.std {
+    width: 80%;
+    background-color: darkolivegreen;
+    margin: 0px auto;
+    border-radius: 14px;
+}
+
+.ga {
+    padding: 1em;
+    width: 60%;
+    background-color: darkolivegreen;
+    margin: 0px auto;
+    border-radius: 14px;
+}
+
+.etr>.bi>ul>li {
+    font-size: 1.2em;
+}
+
+.rightcn>ul>li {
+    font-size: 1.2em;
+}
+
+div#main {
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 14px;
+}
+
+#tim {
+    text-align: center;
+    width: 300px;
+    height: 3.5rem;
+    background-color: black;
+    margin: 10px auto;
+    color: white;
+    font-size: 2.5em;
+    border-radius: 14px;
+}
+
+#stsp,
+#rs {
+    font-size: 1.5em;
+}
+
+.yt {
+    margin: 4em 10px 0px auto;
+}
+
+.hea {
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Times New Roman', serif;
+    text-shadow: 1px 2px 5px darkolivegreen;
+}
+
+.prod {
+    border: 3px solid black;
+    width: 350px;
+    margin: 5px 10px;
+    padding: 10px;
+    float: left;
+    box-shadow: 3px 3px 5px black;
+}
+
+.prod:hover {
+    transform: translateY(2px);
+    box-shadow: 3px 1px 10px black;
+}
+
+.buy {
+    display: block;
+    height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    padding: 8px 0px 0px 0px;
+}
+
+.buy:hover {
+    background-color: orange;
+}
+
+.er {
+    margin-left: 25px;
+    margin-right: 18px;
+}
+
+.products {
+    padding-bottom: 10px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 416.66px;
+}

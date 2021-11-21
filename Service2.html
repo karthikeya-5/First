@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        html {
+            background-image: url(https://28zh652ipeckyztqn2ur7gr1-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/download-1-400x200.jpg);
+            min-height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        body {
+            background-color: white;
+            border-radius: 4px;
+            position: relative;
+            height: 500px;
+            width: 50%;
+            border: 2px solid black;
+        }
+        
+        input {
+            border-radius: 2px;
+            padding: 10px;
+            min-height: 100%;
+            border: 1px solid black;
+        }
+        
+        header {
+            border-radius: 2px;
+            border-bottom: 0.5px solid rgb(65, 59, 59);
+        }
+        
+        div {
+            display: none;
+            border-radius: 2px;
+            background-color: rgb(215, 222, 228);
+            position: absolute;
+            top: 0px;
+            width: 35%;
+            min-height: 100%;
+        }
+        
+        a {
+            display: block;
+            text-decoration: none;
+            font-size: large;
+            color: black;
+            border-bottom: 1px solid rgb(65, 59, 59);
+            padding: 6px;
+        }
+        
+        .Head {
+            border-bottom: 0.5px solid rgb(65, 59, 59);
+        }
+        
+        footer {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+        }
+        
+        #utt:hover {
+            background-color: rgb(119, 143, 131);
+        }
+        
+        #yu:hover {
+            background-color: rgb(119, 143, 131);
+        }
+        
+        a:hover {
+            background-color: rgb(119, 143, 131);
+        }
+        
+        .kl {
+            display: block;
+        }
+        
+        .ec {
+            font-size: 2em;
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+        
+        #utt {
+            vertical-align: 6px;
+        }
+        
+        .image {
+            margin: 0px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <input type="button" value="Menu" id="utt">
+        <span class="ec">Karthikeya</span>
+    </header>
+    <embed style="width:100%; height:460px;" src="https://www.youtube.com/embed/LEK2R58xdsk"></embed>
+    <div id="me">
+        <section class="Head">
+            <h2>&nbsp;Hello , User</h2>
+        </section>
+        <section>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Help</a>
+            <a href="#">Contact Us</a>
+        </section>
+        <footer>
+            <input type="button" value="Back" id="yu">
+        </footer>
+    </div>
+    <script>
+        document.getElementById("utt").onclick = function() {
+            document.getElementById("me").classList.add("kl");
+        }
+        document.getElementById("yu").onclick = function() {
+            document.getElementById("me").classList.remove("kl");
+        }
+    </script>
+</body>
+
+</html>
